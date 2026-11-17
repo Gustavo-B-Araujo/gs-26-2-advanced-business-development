@@ -1,0 +1,9 @@
+# Pastas de compilação do .NET
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+
+# Arquivos de ambiente
+.env

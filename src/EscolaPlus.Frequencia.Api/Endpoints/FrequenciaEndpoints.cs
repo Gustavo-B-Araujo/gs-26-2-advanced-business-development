@@ -13,8 +13,11 @@ public static class FrequenciaEndpoints
 {
     public static void MapFrequenciaEndpoints(this WebApplication app)
     {
+    
         var group = app.MapGroup("/frequencias")
-                       .WithTags("Frequencias");
+                       .WithTags("Frequencias")
+                       .RequireAuthorization("ApenasGestaoEscolar") 
+                       .RequireRateLimiting("porUsuario");
 
         group.MapPost("/", async (
             [FromHeader(Name = "Idempotency-Key")] string? idempotencyKey,
