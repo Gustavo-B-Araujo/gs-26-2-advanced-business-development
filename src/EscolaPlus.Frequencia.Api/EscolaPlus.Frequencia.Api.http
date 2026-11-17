@@ -1,0 +1,6 @@
+@EscolaPlus.Frequencia.Api_HostAddress = http://localhost:5263
+
+GET {{EscolaPlus.Frequencia.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/EscolaPlus.Frequencia.Api/EscolaPlus.Frequencia.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/EscolaPlus.Frequencia.Tests/EscolaPlus.Frequencia.Tests.csproj" />
+  </Folder>
+</Solution>
