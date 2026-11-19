@@ -1,17 +1,27 @@
-# Boletim Plus — API .NET
+# Boletim Plus
 
-Global Solution 2026/2 · CitizenTech · Disciplina: Advanced Business Development with .NET
+Global Solution 2026/2 · CitizenTech
+Disciplina: Advanced Business Development with .NET
 
-Backend .NET da Global Solution 2026/2 (CitizenTech). O Boletim Plus aproxima escola e família:
-o professor lança notas e chamada, e o responsável acompanha o desempenho e a frequência do aluno
-pelo app. Esta API atende **sozinha o contrato do app**, conta (login, cadastro, senha, nome), 
-gestão escolar, sala de aula, dependentes e boletim. No login do app, "Servidor Alternativo" 
-usa só esta API. 
+## Integrantes
 
-| Nome                      | RM     |
-| ------------------------- | ------ |
+| Nome | RM |
+|---|---|
 | Gustavo Barrios de Araújo | 563358 |
-| Phietro Solon Oliveira    | 563842 |
+| Phietro Solon Oliveira | 563842 |
+
+## 1. Problema CitizenTech
+
+Em diversas escolas, o responsável costuma saber da nota baixa ou das faltas do filho só no fim do bimestre, quando o boletim em papel chega. Nessa hora, a recuperação já ficou difícil.
+
+O **Boletim Plus** é um boletim digital. O professor registra notas e presenças, e o sistema:
+
+- calcula a média por aluno e disciplina e classifica a situação (aprovado, recuperação, reprovado);
+- calcula a frequência e gera um alerta quando ela fica abaixo de 75%;
+- indica quais responsáveis devem ser avisados de cada alerta;
+- guarda o histórico das mudanças de status dos usuários, para auditoria.
+
+O cidadão ganha acompanhamento escolar em tempo real, sem depender de reunião presencial ou de papel.
 
 App mobile que consome esta API: <https://github.com/Gustavo-B-Araujo/gs-26-2-mobile-application-development>
 
@@ -194,3 +204,9 @@ tests/BoletimPlus.Api.Tests/
   Unidade/       testes de regra
   Integracao/    testes de endpoint
 ```
+
+## Uso de IA generativa
+
+| Ferramenta | Para quê                                  |
+| ---------- | ----------------------------------------- |
+| Claude     | Apoio na geração do código e da documentação |
