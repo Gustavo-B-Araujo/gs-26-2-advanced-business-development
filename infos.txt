@@ -4,6 +4,7 @@ Turma: 2TDSPW
 
 Repositório: https://github.com/Gustavo-B-Araujo/gs-26-2-advanced-business-development
 
+Nome completo               RM
 Gustavo Barrios de Araújo   RM563358
 Phietro Solon Oliveira      RM563842
 
