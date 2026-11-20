@@ -3,6 +3,7 @@ Disciplina: Advanced Business Development with .NET
 Turma: 2TDSPW
 
 Repositório: https://github.com/Gustavo-B-Araujo/gs-26-2-advanced-business-development
+Vídeo demonstração (mobile): https://youtu.be/8NOZdNgO4Nk
 
 Nome completo               RM
 Gustavo Barrios de Araújo   RM563358
